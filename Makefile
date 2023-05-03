@@ -1,7 +1,6 @@
 
 CC=g++
 CFLAGS=-c -W all -I include
-LDFLAGS=
 SOURCES=src/FindDevices.cpp src/main.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=myprogram
