@@ -5,7 +5,7 @@ using namespace std;
 
 class FindDevices {
   public:
-    string seach()
+    string seach();
     
     
   private:

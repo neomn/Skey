@@ -1,4 +1,4 @@
-#include <FindDevices.h>
+#include "../include/FindDevices.h" 
 using namespace std;
 
 class FindDevice {
