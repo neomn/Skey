@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     
-    cout << FindDevices::search  << endl;
+    cout << FindDevices::search()  << endl;
 
     //bootstrap c++ program                             4
  
