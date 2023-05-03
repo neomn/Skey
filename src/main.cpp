@@ -3,10 +3,11 @@
 using namespace std;
 
 int main() {
+    
+    cout << FindDevices::search  << endl;
 
     //bootstrap c++ program                             4
  
-
     // get a list of all devices in local network       6
 
     // implemen ssh connection to desired devices       9
