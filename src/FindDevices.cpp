@@ -1,6 +1,6 @@
 #include <FindDevices.h>
 
-class FindDevice(){
+class FindDevice {
   public:
     string search(){
       return string test = {"this is a test"};
