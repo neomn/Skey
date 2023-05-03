@@ -1,12 +1,10 @@
 
 CC=g++
-CFLAGS=-c -Wall -Iinclude
+CFLAGS=-c -W all -I include
 LDFLAGS=
-SOURCES=src/MyClass.cpp src/MyOtherClass.cpp
+SOURCES=src/FindDevices.cpp src/main.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=myprogram
-
-all: $(SOURCES) $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJECTS)
 	$(CC) $(LDFLAGS) $(OBJECTS) -o $@
@@ -16,3 +14,5 @@ $(EXECUTABLE): $(OBJECTS)
 
 clean:
 	rm -rf *o $(EXECUTABLE)
+
+all: $(SOURCES) $(EXECUTABLE)
