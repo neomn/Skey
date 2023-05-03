@@ -1,8 +1,9 @@
 #include <FindDevices.h>
+using namespace std;
 
 class FindDevice {
   public:
     string search(){
-      return string test = {"this is a test"};
+      return "this is a test";
     }
-}
+};
